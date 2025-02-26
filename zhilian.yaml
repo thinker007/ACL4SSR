@@ -1,0 +1,14 @@
+payload:
+# 蜡笔直连
+DOMAIN-SUFFIX,feimaoai.site
+DOMAIN-SUFFIX,feimao666.fun
+DOMAIN-SUFFIX,feimao888.fun
+
+# 玩偶直连
+DOMAIN-SUFFIX,wogg.one
+DOMAIN-SUFFIX,wogg.lol
+DOMAIN-SUFFIX,xxooo.cf
+DOMAIN-SUFFIX,333232.xyz
+
+# 木偶直连
+IP-CIDR,149.88.87.72/32
