@@ -9,6 +9,3 @@ payload:
 - DOMAIN-SUFFIX,wogg.lol
 - DOMAIN-SUFFIX,xxooo.cf
 - DOMAIN-SUFFIX,333232.xyz
-
-# 木偶直连
-- IP-CIDR,149.88.87.72/32
