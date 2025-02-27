@@ -410,7 +410,7 @@ rule-providers:
     format: text
     type: http 
   Ai:
-    url: https://github.celin.ggff.net/https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/AI.list
+    url: https://testingcf.jsdelivr.net/gh/celin1286/ACL4SSR@main/AI.list
     path: ./Ai.list
     behavior: classical
     interval: 86400
@@ -501,7 +501,7 @@ rule-providers:
     format: text
     type: http
   DirectWogg:
-    url: https://github.celin.ggff.net/https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/DirectWogg.list
+    url: https://testingcf.jsdelivr.net/gh/celin1286/ACL4SSR@main/DirectWogg.list
     path: ./DirectWogg.list
     behavior: classical
     interval: 86400
@@ -515,7 +515,7 @@ rule-providers:
     format: text
     type: http
   ProxyWogg:
-    url: https://github.celin.ggff.net/https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/ProxyWogg.list
+    url: https://testingcf.jsdelivr.net/gh/celin1286/ACL4SSR@main/ProxyWogg.list
     path: ./ProxyWogg.list
     behavior: classical
     interval: 86400
