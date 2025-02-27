@@ -26,8 +26,8 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Telegram.png
     type: select
     proxies:
-      - 节点选择
       - 自动选择
+      - 节点选择
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -45,14 +45,17 @@ proxy-groups:
       - 日本节点
       - 美国节点
       - 韩国节点
+      - 香港节点
+      - 自动选择
+      - 节点选择
       - 手动切换
       - DIRECT
   - name: 油管视频
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/YouTube.png
     type: select
     proxies:
-      - 节点选择
       - 自动选择
+      - 节点选择
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -65,9 +68,9 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Netflix.png
     type: select
     proxies:
-      - 节点选择
-      - 自动选择
       - 奈飞节点
+      - 自动选择
+      - 节点选择
       - 狮城节点
       - 香港节点
       - 台湾节点
@@ -95,8 +98,8 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/ForeignMedia.png
     type: select
     proxies:
-      - 节点选择
       - 自动选择
+      - 节点选择
       - 香港节点
       - 台湾节点
       - 狮城节点
@@ -120,6 +123,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 自动选择
       - 节点选择
       - 美国节点
       - 香港节点
@@ -133,6 +137,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 自动选择
       - 节点选择
       - 美国节点
       - 香港节点
@@ -146,6 +151,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 自动选择
       - 节点选择
       - 美国节点
       - 香港节点
@@ -158,6 +164,7 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Microsoft.png
     type: select
     proxies:
+      - 自动选择
       - 节点选择
       - DIRECT
       - 美国节点
@@ -172,6 +179,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 自动选择
       - 节点选择
       - 美国节点
       - 香港节点
@@ -185,6 +193,7 @@ proxy-groups:
     type: select
     proxies:
       - DIRECT
+      - 自动选择
       - 节点选择
       - 美国节点
       - 香港节点
@@ -200,15 +209,15 @@ proxy-groups:
     filter: (?i)网易|音乐|NetEase|Music
     proxies:
       - DIRECT
-      - 节点选择
       - 自动选择
+      - 节点选择
   - name: 全球直连
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Direct.png
     type: select
     proxies:
       - DIRECT
-      - 节点选择
       - 自动选择
+      - 节点选择
   - name: 广告拦截
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/AdBlack.png
     type: select
@@ -225,8 +234,8 @@ proxy-groups:
     icon: https://testingcf.jsdelivr.net/gh/Koolson/Qure@master/IconSet/Color/Final.png
     type: select
     proxies:
-      - 节点选择
       - 自动选择
+      - 节点选择
       - DIRECT
       - 香港节点
       - 台湾节点
