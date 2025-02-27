@@ -346,6 +346,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  BanProgramAD1:
+    url: https://testingcf.jsdelivr.net/gh/zsokami/ACL4SSR@main/BanProgramAD1.list
+    path: ./BanProgramAD.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   GoogleFCM:
     url: https://testingcf.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/Ruleset/GoogleFCM.list
     path: ./ruleset/GoogleFCM.list
@@ -555,6 +562,7 @@ rules:
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,BanAD,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
+  - "RULE-SET,BanProgramAD1,应用净化"
   - "RULE-SET,GoogleFCM,谷歌FCM"
   - "RULE-SET,GoogleCN,全球直连"
   - "RULE-SET,SteamCN,全球直连"
