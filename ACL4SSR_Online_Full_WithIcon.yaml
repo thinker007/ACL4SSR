@@ -561,7 +561,7 @@ rule-providers:
   ChinaOnly:
     url: https://testingcf.jsdelivr.net/gh/zsokami/ACL4SSR@main/ChinaOnly.list
     path: ./ChinaOnly.list
-    behavior: domain
+    behavior: classical
     interval: 86400
     format: text
     type: http
