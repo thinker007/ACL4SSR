@@ -9,3 +9,5 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,notebooklm.google
+DOMAIN,ai.google.dev
+DOMAIN,aistudio.google.com
