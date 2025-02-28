@@ -435,7 +435,7 @@ rule-providers:
     format: text
     type: http 
   Ai:
-    url: https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/AI.list
+    url: https://testingcf.jsdelivr.net/gh/celin1286/ACL4SSR@main/AI.list
     path: ./Ai.list
     behavior: classical
     interval: 86400
