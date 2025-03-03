@@ -345,7 +345,7 @@ rule-providers:
     type: http
   UnBan1:
     url: https://cdn.jsdelivr.net/gh/zsokami/ACL4SSR@main/UnBan1.list
-    path: ./UnBan1.list
+    path: ./ruleset/UnBan1.list
     behavior: classical
     interval: 86400
     format: text
@@ -366,7 +366,7 @@ rule-providers:
     type: http
   BanProgramAD1:
     url: https://cdn.jsdelivr.net/gh/zsokami/ACL4SSR@main/BanProgramAD1.list
-    path: ./BanProgramAD1.list
+    path: ./ruleset/BanProgramAD1.list
     behavior: classical
     interval: 86400
     format: text
@@ -436,7 +436,7 @@ rule-providers:
     type: http 
   Ai:
     url: https://cdn.jsdelivr.net/gh/celin1286/ACL4SSR@main/AI.list
-    path: ./Ai.list
+    path: ./ruleset/Ai.list
     behavior: classical
     interval: 86400
     format: text
@@ -527,7 +527,7 @@ rule-providers:
     type: http
   DirectWogg:
     url: https://cdn.jsdelivr.net/gh/celin1286/ACL4SSR@main/DirectWogg.list
-    path: ./DirectWogg.list
+    path: ./ruleset/DirectWogg.list
     behavior: classical
     interval: 86400
     format: text
@@ -541,7 +541,7 @@ rule-providers:
     type: http
   ProxyWogg:
     url: https://cdn.jsdelivr.net/gh/celin1286/ACL4SSR@main/ProxyWogg.list
-    path: ./ProxyWogg.list
+    path: ./ruleset/ProxyWogg.list
     behavior: classical
     interval: 86400
     format: text
@@ -562,7 +562,7 @@ rule-providers:
     type: http
   ChinaOnly:
     url: https://cdn.jsdelivr.net/gh/zsokami/ACL4SSR@main/ChinaOnly.list
-    path: ./ChinaOnly.list
+    path: ./ruleset/ChinaOnly.list
     behavior: classical
     interval: 86400
     format: text
