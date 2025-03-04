@@ -357,6 +357,13 @@ rule-providers:
     interval: 86400
     format: text
     type: http
+  AdBlock:
+    url: https://cdn.jsdelivr.net/gh/celin1286/ACL4SSR@main/Ruleset/AdBlock.list
+    path: ./ruleset/AdBlock.list
+    behavior: classical
+    interval: 86400
+    format: text
+    type: http
   BanProgramAD:
     url: https://cdn.jsdelivr.net/gh/ACL4SSR/ACL4SSR@master/Clash/BanProgramAD.list
     path: ./ruleset/BanProgramAD.list
@@ -587,6 +594,7 @@ rules:
   - "RULE-SET,UnBan,全球直连"
   - "RULE-SET,UnBan1,全球直连"
   - "RULE-SET,BanAD,广告拦截"
+  - "RULE-SET,AdBlock,广告拦截"
   - "RULE-SET,BanProgramAD,应用净化"
   - "RULE-SET,BanProgramAD1,应用净化"
   - "RULE-SET,GoogleFCM,谷歌FCM"
