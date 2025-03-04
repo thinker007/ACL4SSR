@@ -441,7 +441,7 @@ rule-providers:
     interval: 86400
     format: text
     type: http 
-  Ai:
+  AISuite:
     url: https://cdn.jsdelivr.net/gh/celin1286/ACL4SSR@main/Ruleset/AISuite.list
     path: ./ruleset/AISuite.list
     behavior: classical
@@ -606,7 +606,7 @@ rules:
   - "RULE-SET,Apple,苹果服务"
   - "RULE-SET,Telegram,电报消息"
   - "RULE-SET,OpenAi,OpenAi"
-  - "RULE-SET,Ai,OpenAi"
+  - "RULE-SET,AISuite,OpenAi"
   - "RULE-SET,NetEaseMusic,网易音乐"
   - "RULE-SET,Epic,游戏平台"
   - "RULE-SET,Origin,游戏平台"
