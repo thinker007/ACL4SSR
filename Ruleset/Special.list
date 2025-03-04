@@ -14,59 +14,44 @@ DOMAIN,supportdownload.apple.com
 DOMAIN,swcdn.apple.com
 DOMAIN,updates-http.cdn-apple.com
 DOMAIN-SUFFIX,ls.apple.com
-
 # > Epic
 DOMAIN-KEYWORD,epicgames
-
 # > Google
 DOMAIN,safebrowsing.googleapis.com
 DOMAIN-SUFFIX,dl.google.com
-
 # > Microsoft
 # - USER-AGENT,Microsoft%20Remote%20Desktop*
 DOMAIN-SUFFIX,msftconnecttest.com
-
 # > Proxy plugin
 PROCESS-NAME,v2ray
 PROCESS-NAME,ss-local
-
 # > PlayStation
 DOMAIN-SUFFIX,dl.playstation.net
-
 # > Steam
 # - USER-AGENT,Steam*
 DOMAIN,cm.steampowered.com
 DOMAIN,ol.epicgames.com
 DOMAIN-SUFFIX,steamcontent.com
 DOMAIN-SUFFIX,steamserver.net
-
 DOMAIN-SUFFIX,steamchina.com
-
 DOMAIN,csgo.wmsj.cn
 DOMAIN,dota2.wmsj.cn
 DOMAIN,wmsjsteam.com
-
 DOMAIN,dl.steam.clngaa.com
 DOMAIN,dl.steam.ksyna.com
-
 DOMAIN,gstore.val.manlaxy.com
-
 DOMAIN,st.dl.bscstorage.net
 DOMAIN,st.dl.eccdnx.com
 DOMAIN,st.dl.pinyuncloud.com
-
 DOMAIN,steampipe.steamcontent.tnkjmec.com
-
 DOMAIN,steampowered.com.8686c.com
 DOMAIN,steamstatic.com.8686c.com
-
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcdn-a.akamaihd.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steamstore-a.akamaihd.net
 DOMAIN,steamusercontent-a.akamaihd.net
 DOMAIN,steamuserimages-a.akamaihd.net
-
 # > Tesla
 DOMAIN,tesla-cdn.thron.cn
 DOMAIN,tesla-cdn.thron.com
@@ -78,17 +63,13 @@ DOMAIN-SUFFIX,teslamotors.cn
 DOMAIN-SUFFIX,teslamotors.com
 DOMAIN-SUFFIX,teslamotors.com.cn
 DOMAIN-SUFFIX,ts.la
-
 # > UUBooster
 PROCESS-NAME,UUBooster
-
 # > WiFiman
 DOMAIN-SUFFIX,app-measurement.com
-
 # > Xunlei
 # - USER-AGENT,%E8%BF%85%E9%9B%B7
 DOMAIN-SUFFIX,xunlei.com
-
 # > Download
 PROCESS-NAME,aria2c.exe
 PROCESS-NAME,BitComet.exe
@@ -112,7 +93,6 @@ PROCESS-NAME,Transmission
 PROCESS-NAME,uTorrent
 PROCESS-NAME,WebTorrent
 PROCESS-NAME,WebTorrent Helper
-
 # > Private Tracker
 DOMAIN-SUFFIX,audiences.me
 DOMAIN-SUFFIX,awesome-hd.me
@@ -141,11 +121,9 @@ DOMAIN-SUFFIX,springsunday.net
 DOMAIN-SUFFIX,tjupt.org
 DOMAIN-SUFFIX,totheglory.im
 DOMAIN-SUFFIX,audiences.me
-
 DOMAIN-KEYWORD,announce
 DOMAIN-KEYWORD,torrent
 DOMAIN-SUFFIX,smtp
 # - URL-REGEX,(Subject|HELO|SMTP)
-
 # > UBI
 DOMAIN,uplaypc-s-ubisoft.cdn.ubi.com
