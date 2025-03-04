@@ -436,7 +436,7 @@ rule-providers:
     type: http 
   Ai:
     url: https://cdn.jsdelivr.net/gh/celin1286/ACL4SSR@main/Ruleset/AISuite.list
-    path: ./ruleset/Ai.list
+    path: ./ruleset/AISuite.list
     behavior: classical
     interval: 86400
     format: text
