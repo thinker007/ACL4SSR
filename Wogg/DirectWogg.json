@@ -1,0 +1,23 @@
+{
+  "version": 3,
+  "rules": [
+    {
+      "domain_suffix": [
+        "feimaoai.site",
+        "feimao666.fun",
+        "feimao888.fun",
+        "labi88.sbs",
+        "wogg.one",
+        "wogg.lol",
+        "xxooo.cf",
+        "333232.xyz",
+        "0v.fit",
+        "erxiaofn.site"
+      ],
+      "ip_cidr": [
+        "149.88.87.72/32",
+        "103.45.162.207/32"
+      ]
+    }
+  ]
+}
