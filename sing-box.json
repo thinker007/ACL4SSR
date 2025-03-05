@@ -124,7 +124,10 @@
         "outbound": "youtube"
       },
       {
-        "rule_set": "openai_domain",
+        "rule_set": [
+          "openai_domain",
+          "AISuite"
+        ],
         "action": "route",
         "outbound": "openai"
       },
@@ -200,6 +203,13 @@
         "type": "remote",
         "format": "binary",
         "url": "https://ghfast.top/https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/Wogg/ProxyWogg.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "AISuite",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/SingBox/AISuite.srs",
         "download_detour": "direct"
       },
       {
