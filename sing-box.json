@@ -163,7 +163,8 @@
       {
         "rule_set": [
           "google_ip",
-          "google_domain"
+          "google_domain",
+          "ProxyWogg"
         ],
         "action": "route",
         "outbound": "google"
@@ -179,13 +180,28 @@
       {
         "rule_set": [
           "cn_ip",
-          "cn_domain"
+          "cn_domain",
+          "DirectWogg"
         ],
         "action": "route",
         "outbound": "cn"
       }
     ],
     "rule_set": [
+      {
+        "tag": "DirectWogg",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/Wogg/DirectWogg.srs",
+        "download_detour": "direct"
+      },
+      {
+        "tag": "ProxyWogg",
+        "type": "remote",
+        "format": "binary",
+        "url": "https://ghfast.top/https://raw.githubusercontent.com/celin1286/ACL4SSR/refs/heads/main/Wogg/ProxyWogg.srs",
+        "download_detour": "direct"
+      },
       {
         "tag": "apple_ip",
         "type": "remote",
