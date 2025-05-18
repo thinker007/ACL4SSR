@@ -18,12 +18,22 @@ payload:
 
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,api3.siftscience.com
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN,cdn.usefathom.com
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
+  - DOMAIN-SUFFIX,api.claude.ai
+  - DOMAIN-SUFFIX,url8792.mail.anthropic.com
+  - DOMAIN-SUFFIX,console.anthropic.com
+  - DOMAIN-SUFFIX,docs.anthropic.com
+  - IP-CIDR,160.79.104.10/24
+  - IP-CIDR,34.8.116.182/24
+  - IP-CIDR,34.120.195.249/24
+
 
   # > Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
