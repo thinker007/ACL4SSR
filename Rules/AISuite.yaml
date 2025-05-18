@@ -21,6 +21,7 @@ payload:
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN,cdn.usefathom.com
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
 
