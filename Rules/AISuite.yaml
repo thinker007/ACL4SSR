@@ -10,6 +10,9 @@ payload:
   - DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
+  - DOMAIN,auth.openai.com
+  - IP-CIDR,104.18.41.241/24
+  - IP-CIDR,172.64.146.15/24
 
   - DOMAIN-SUFFIX,cdn.oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
