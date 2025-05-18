@@ -18,8 +18,11 @@ payload:
 
   # > Claude
   - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN-SUFFIX,claude.ai
   - DOMAIN-SUFFIX,claudeusercontent.com
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude
 
   # > Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
