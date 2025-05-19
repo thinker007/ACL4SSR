@@ -11,8 +11,8 @@ payload:
   - DOMAIN,openaicomproductionae4b.blob.core.windows.net
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,auth.openai.com
-  - IP-CIDR,104.18.41.241/24
-  - IP-CIDR,172.64.146.15/24
+  - IP-CIDR,104.18.41.241/32
+  - IP-CIDR,172.64.146.15/32
 
   - DOMAIN-SUFFIX,cdn.oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
@@ -33,9 +33,9 @@ payload:
   - DOMAIN-SUFFIX,url8792.mail.anthropic.com
   - DOMAIN-SUFFIX,console.anthropic.com
   - DOMAIN-SUFFIX,docs.anthropic.com
-  - IP-CIDR,160.79.104.10/24
-  - IP-CIDR,34.8.116.182/24
-  - IP-CIDR,34.120.195.249/24
+  - IP-CIDR,160.79.104.10/32
+  - IP-CIDR,34.8.116.182/32
+  - IP-CIDR,34.120.195.249/32
 
 
   # > Cloudflare AI Gateway
