@@ -184,4 +184,7 @@ payload:
   - DOMAIN-SUFFIX,browser-intake-datadoghq.com
   - DOMAIN-SUFFIX,clientstream.launchdarkly.com
   - DOMAIN-SUFFIX,mobile.launchdarkly.com
+  - DOMAIN-KEYWORD,diabrowser
+
+  
   
