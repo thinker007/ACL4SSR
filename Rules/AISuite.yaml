@@ -177,3 +177,11 @@ payload:
   # > Sora
   - DOMAIN-SUFFIX,sora.com
   - DOMAIN,sora-cdn.oaistatic.com
+
+  # > Dia Browser
+  - DOMAIN-SUFFIX,account.diabrowser.engineering
+  - DOMAIN-SUFFIX,ingest.us.sentry.io
+  - DOMAIN-SUFFIX,browser-intake-datadoghq.com
+  - DOMAIN-SUFFIX,clientstream.launchdarkly.com
+  - DOMAIN-SUFFIX,mobile.launchdarkly.com
+  
