@@ -74,6 +74,11 @@ payload:
   - DOMAIN,auth.openai.com
   - IP-CIDR,104.18.41.241/32
   - IP-CIDR,172.64.146.15/32
+  - IP-CIDR,1.1.1.1/32
+  - IP-CIDR,8.8.8.8/32
+  - IP-CIDR,8.8.4.4/32
+  - IP-CIDR,9.9.9.9/32
+  
 
   - DOMAIN-SUFFIX,cdn.oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
