@@ -191,5 +191,8 @@ payload:
   - DOMAIN-SUFFIX,mobile.launchdarkly.com
   - DOMAIN-KEYWORD,diabrowser
 
+  # > pyodide
+  - DOMAIN-SUFFIX,jsdelivr.net
+
   
   
