@@ -194,5 +194,8 @@ payload:
   # > pyodide
   - DOMAIN-SUFFIX,jsdelivr.net
 
+  # > pangolin
+  - DOMAIN-SUFFIX,fossorial.io
+
   
   
