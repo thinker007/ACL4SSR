@@ -198,5 +198,8 @@ payload:
   - DOMAIN-SUFFIX,fossorial.io
   - IP-CIDR,151.145.74.177/32
 
+  # > tailscale
+  - DOMAIN-SUFFIX,tailscale.com
+
   
   
