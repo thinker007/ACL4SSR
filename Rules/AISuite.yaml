@@ -201,5 +201,7 @@ payload:
   # > tailscale
   - DOMAIN-SUFFIX,tailscale.com
 
+  # > presearch.com
+  - DOMAIN-SUFFIX,presearch.com
   
   
