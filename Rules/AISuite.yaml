@@ -203,5 +203,8 @@ payload:
 
   # > presearch.com
   - DOMAIN-SUFFIX,presearch.com
-  
+  - DOMAIN-SUFFIX,presearch.org
+
+  # > pytorch
+  - DOMAIN-SUFFIX,pytorch.org
   
