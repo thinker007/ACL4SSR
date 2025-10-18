@@ -207,4 +207,7 @@ payload:
 
   # > pytorch
   - DOMAIN-SUFFIX,pytorch.org
+
+  # > ultramobile.com
+  - DOMAIN-SUFFIX,ultramobile.com
   
