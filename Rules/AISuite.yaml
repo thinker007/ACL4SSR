@@ -215,7 +215,9 @@ payload:
   - DOMAIN-SUFFIX,friendbuy.com
   - DOMAIN-SUFFIX,googletagmanager.com
   - DOMAIN-SUFFIX,hotjar.com
-  
+  - DOMAIN-SUFFIX,cloudflareinsights.com
+  - DOMAIN-SUFFIX,launchdarkly.com
+  - DOMAIN-SUFFIX,online-metrix.net 
   
   
   
