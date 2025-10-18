@@ -210,4 +210,16 @@ payload:
 
   # > ultramobile.com
   - DOMAIN-SUFFIX,ultramobile.com
+  - DOMAIN-SUFFIX,braze.com
+  - DOMAIN-SUFFIX,khoros.com
+  - DOMAIN-SUFFIX,friendbuy.com
+  - DOMAIN-SUFFIX,googletagmanager.com
+  - DOMAIN-SUFFIX,hotjar.com
+  
+  
+  
+  
+  
+  
+  
   
