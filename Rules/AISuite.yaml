@@ -200,7 +200,7 @@ payload:
   - IP-CIDR,151.145.74.177/32
 
   # > tailscale
-  - DOMAIN-SUFFIX,tailscale.com
+  #- DOMAIN-SUFFIX,tailscale.com
 
   # > presearch.com
   - DOMAIN-SUFFIX,presearch.com
