@@ -94,6 +94,7 @@ payload:
   - DOMAIN-SUFFIX,honeycomb.io
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN,cdn.usefathom.com
+  - DOMAIN-SUFFIX,happy.engineering
   - DOMAIN-KEYWORD,anthropic
   - DOMAIN-KEYWORD,claude
   - DOMAIN-SUFFIX,api.claude.ai
