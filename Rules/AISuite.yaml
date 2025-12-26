@@ -154,6 +154,7 @@ payload:
   - DOMAIN,ai.google.dev
   - DOMAIN,alkalicore-pa.clients6.google.com
   - DOMAIN,waa-pa.clients6.google.com
+  - DOMAIN-SUFFIX,app-analytics-services.com
 
   # > Google NotebookLM
   - DOMAIN-SUFFIX,notebooklm.google
