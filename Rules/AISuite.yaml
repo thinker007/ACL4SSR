@@ -224,7 +224,8 @@ payload:
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,online-metrix.net 
   
-  
+  # tavily search
+  - DOMAIN-SUFFIX,tavily.com
   
   
   
