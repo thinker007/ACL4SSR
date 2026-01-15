@@ -92,6 +92,9 @@ payload:
   - DOMAIN-SUFFIX,api3.siftscience.com
   - DOMAIN,servd-anthropic-website.b-cdn.net
   - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,platform.claude.com
+  - DOMAIN-SUFFIX,code.claude.com 
   - DOMAIN-SUFFIX,honeycomb.io
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN,cdn.usefathom.com
