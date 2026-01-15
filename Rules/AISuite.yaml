@@ -106,6 +106,7 @@ payload:
   - DOMAIN-SUFFIX,url8792.mail.anthropic.com
   - DOMAIN-SUFFIX,console.anthropic.com
   - DOMAIN-SUFFIX,docs.anthropic.com
+  - DOMAIN-SUFFIX,segment.com
   - IP-CIDR,160.79.104.10/32
   - IP-CIDR,34.8.116.182/32
   - IP-CIDR,34.120.195.249/32
