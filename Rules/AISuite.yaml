@@ -232,6 +232,8 @@ payload:
   
   # tavily search
   - DOMAIN-SUFFIX,tavily.com
+  # http://opengw.com/
+  - DOMAIN-SUFFIX,opengw.com
   
   
   
