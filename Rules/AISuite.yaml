@@ -204,6 +204,8 @@ payload:
 
   # > gpt
   - DOMAIN-KEYWORD,gptgod
+  - DOMAIN-SUFFIX,kfcv50.link
+  - DOMAIN-SUFFIX,api.qnaigc.com
 
   # > pyodide
   - DOMAIN-SUFFIX,jsdelivr.net
