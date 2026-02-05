@@ -239,7 +239,9 @@ payload:
   - DOMAIN-SUFFIX,tavily.com
   # http://opengw.com/
   - DOMAIN-SUFFIX,opengw.com
-  
+
+  # > OneDrive
+  - DOMAIN-SUFFIX,live.com
   
   
   
