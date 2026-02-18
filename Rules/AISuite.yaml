@@ -242,6 +242,9 @@ payload:
 
   # > OneDrive
   - DOMAIN-SUFFIX,live.com
+
+  # > metamask
+  - DOMAIN-SUFFIX,polygon-rpc.com
   
   
   
