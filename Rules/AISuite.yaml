@@ -245,7 +245,7 @@ payload:
 
   # > metamask
   - DOMAIN-SUFFIX,polygon-rpc.com
-  
+  - DOMAIN-SUFFIX,matic.network
   
   
   
