@@ -243,6 +243,9 @@ payload:
   # > OneDrive
   - DOMAIN-SUFFIX,live.com
 
+  # > Paseo
+  - DOMAIN-SUFFIX,paseo.sh
+
   # > metamask
   - DOMAIN-SUFFIX,polygon-rpc.com
   - DOMAIN-SUFFIX,matic.network
