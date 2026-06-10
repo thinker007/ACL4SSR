@@ -251,6 +251,7 @@ payload:
   - DOMAIN-SUFFIX,matic.network
   - DOMAIN-SUFFIX,ankr.com
   
-  
+  # > allyhub.com
+  - DOMAIN-SUFFIX,allyhub.com
   
   
