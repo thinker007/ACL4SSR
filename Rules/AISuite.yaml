@@ -253,5 +253,7 @@ payload:
   
   # > allyhub.com
   - DOMAIN-SUFFIX,allyhub.com
-  
+
+  # > sssaicode.com
+  - DOMAIN-SUFFIX,sssaicode.com
   
