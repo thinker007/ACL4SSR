@@ -114,7 +114,7 @@ payload:
   - IP-CIDR,34.120.195.249/32
 
   # > socks5 server
-  - IP-CIDR,162.141.51.226,32
+  - IP-CIDR,162.141.51.226/32
 
   # > Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
