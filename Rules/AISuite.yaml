@@ -117,6 +117,7 @@ payload:
   - IP-CIDR,162.141.51.226/32
   - IP-CIDR,38.92.213.211/24
   - IP-CIDR,38.92.213.205/24
+  - IP-CIDR,38.92.213.179/24
 
   # > Cloudflare AI Gateway
   - DOMAIN,gateway.ai.cloudflare.com
