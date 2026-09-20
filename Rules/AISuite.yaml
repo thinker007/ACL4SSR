@@ -209,7 +209,7 @@ payload:
   - DOMAIN-SUFFIX,mobile.launchdarkly.com
   - DOMAIN-KEYWORD,diabrowser
 
-  # > gpt
+  # > mail.com
   - DOMAIN-SUFFIX,mail.com
 
   # > gpt
