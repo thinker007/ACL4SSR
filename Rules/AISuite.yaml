@@ -87,6 +87,58 @@ payload:
   - DOMAIN,o33249.ingest.sentry.io
 
   # > Claude
+  # 核心域名
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,clau.de
+  - DOMAIN-SUFFIX,claudemcpclient.com
+  - DOMAIN-SUFFIX,claudeusercontent.com
+
+  # 原有补充域名
+  - DOMAIN-SUFFIX,prodregistryv2.org
+  - DOMAIN-SUFFIX,api3.siftscience.com
+  - DOMAIN-SUFFIX,honeycomb.io
+  - DOMAIN-SUFFIX,happy.engineering
+  - DOMAIN-SUFFIX,segment.com
+
+  # CDN / 静态资源
+  - DOMAIN,servd-anthropic-website.b-cdn.net
+  - DOMAIN,anthropic.com.cdn.cloudflare.net
+  - DOMAIN,cdn.usefathom.com
+
+  # 认证 / 内容
+  - DOMAIN,anthropic.auth0.com
+  - DOMAIN,anthropic-com.ghost.io
+
+  # 监控 / 遥测
+  - DOMAIN-SUFFIX,sentry.io
+  - DOMAIN-SUFFIX,statsigapi.net
+  - DOMAIN,browser-intake-us5-datadoghq.com
+  - DOMAIN-KEYWORD,datadog
+  - DOMAIN-KEYWORD,sift
+
+  # 客服 / 第三方组件
+  - DOMAIN-SUFFIX,intercom.io
+  - DOMAIN-SUFFIX,intercomcdn.com
+
+  # 关键词兜底
+  - DOMAIN-KEYWORD,anthropic
+  - DOMAIN-KEYWORD,claude
+  - DOMAIN-KEYWORD,happy
+
+  # IPv4 地址段
+  - IP-CIDR,160.79.104.0/21,no-resolve
+  - IP-CIDR,209.249.57.0/24,no-resolve
+  - IP-CIDR,34.8.116.182/32,no-resolve
+  - IP-CIDR,34.120.195.249/32,no-resolve
+
+  # IPv6 地址段
+  - IP-CIDR6,2607:6bc0::/32,no-resolve
+
+  # ASN 自治系统
+  - IP-ASN,399358,no-resolve
+  # old claude
   - DOMAIN-SUFFIX,anthropic.com
   - DOMAIN-SUFFIX,www.anthropic.com
   - DOMAIN-SUFFIX,prodregistryv2.org
