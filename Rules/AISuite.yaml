@@ -318,4 +318,6 @@ payload:
 
   # > sssaicode.com
   - DOMAIN-SUFFIX,sssaicode.com
+  # > donutbrowser.com
+  - DOMAIN-SUFFIX,donutbrowser.com
   
