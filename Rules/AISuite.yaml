@@ -320,4 +320,5 @@ payload:
   - DOMAIN-SUFFIX,sssaicode.com
   # > donutbrowser.com
   - DOMAIN-SUFFIX,donutbrowser.com
-  
+  # > typesafe.ai
+  - DOMAIN-SUFFIX,typesafe.ai
