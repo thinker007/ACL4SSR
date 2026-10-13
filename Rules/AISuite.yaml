@@ -322,3 +322,6 @@ payload:
   - DOMAIN-SUFFIX,donutbrowser.com
   # > typesafe.ai
   - DOMAIN-SUFFIX,typesafe.ai
+  # > kiro.dev
+  - DOMAIN-KEYWORD,kiro
+  - DOMAIN-SUFFIX,kiro.dev
