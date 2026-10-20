@@ -325,3 +325,7 @@ payload:
   # > kiro.dev
   - DOMAIN-KEYWORD,kiro
   - DOMAIN-SUFFIX,kiro.dev
+
+  # > 1openapi.com
+  - DOMAIN-SUFFIX,1openapi.com
+  - DOMAIN-SUFFIX,1openrouter.ai
