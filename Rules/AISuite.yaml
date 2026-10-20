@@ -329,3 +329,5 @@ payload:
   # > 1openapi.com
   - DOMAIN-SUFFIX,1openapi.com
   - DOMAIN-SUFFIX,1openrouter.ai
+  # > vps
+  - DOMAIN-SUFFIX,vmiss.com
