@@ -331,3 +331,6 @@ payload:
   - DOMAIN-SUFFIX,1openrouter.ai
   # > vps
   - DOMAIN-SUFFIX,vmiss.com
+
+  # > ssh
+  - DST-PORT,22
