@@ -1,4 +1,6 @@
 payload:
+  # SSH
+  - DST-PORT,22
   # > Blizzard
   # - USER-AGENT,hearthstone*
   - DOMAIN,cdp.cloud.unity3d.com
