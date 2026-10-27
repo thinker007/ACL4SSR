@@ -9,6 +9,8 @@ payload:
   # DOMAIN
   #- IP-CIDR,154.12.48.78/32
   - DOMAIN,dl.wechat.com
+  # for vps 直连
+  - DOMAIN,dl.google.com
   - DOMAIN,sgfindershort.wechat.com
   - DOMAIN,sgilinkshort.wechat.com
   - DOMAIN,sglong.wechat.com
