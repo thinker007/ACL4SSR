@@ -2,7 +2,7 @@ payload:
   # SSH
   - DST-PORT,22
   # vps proxy
-  - IP-CIDR,154.12.48.78/32
+  # - IP-CIDR,154.12.48.78/32
   # > Blizzard
   # - USER-AGENT,hearthstone*
   - DOMAIN,cdp.cloud.unity3d.com
