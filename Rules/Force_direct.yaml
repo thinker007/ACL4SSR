@@ -7,6 +7,7 @@
 # TOTAL: 259
 payload:
   # DOMAIN
+  - IP-CIDR,154.12.48.78/32
   - DOMAIN,dl.wechat.com
   - DOMAIN,sgfindershort.wechat.com
   - DOMAIN,sgilinkshort.wechat.com
