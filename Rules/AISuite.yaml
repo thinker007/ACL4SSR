@@ -333,4 +333,6 @@ payload:
   - DOMAIN-SUFFIX,vmiss.com
   # > owlet dream magic sock
   - DOMAIN-SUFFIX,owletdata.com
+  - DOMAIN-SUFFIX,aylanetworks.com
+  - DOMAIN-SUFFIX,owletcare.com
   
