@@ -335,4 +335,5 @@ payload:
   - DOMAIN-SUFFIX,owletdata.com
   - DOMAIN-SUFFIX,aylanetworks.com
   - DOMAIN-SUFFIX,owletcare.com
-  
+  # > docker
+  - DOMAIN-SUFFIX,docker.io
