@@ -38,6 +38,8 @@ payload:
   # > Spark
   - DOMAIN-SUFFIX,api.amplitude.com
   - DOMAIN-SUFFIX,app.smartmailcloud.com
+  # > python
+  - DOMAIN-SUFFIX,pypi.org
   - DOMAIN-SUFFIX,gate.hockeyapp.net
   - DOMAIN-SUFFIX,smartmailcloud.com
   
