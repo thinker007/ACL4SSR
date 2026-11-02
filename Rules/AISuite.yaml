@@ -337,3 +337,6 @@ payload:
   - DOMAIN-SUFFIX,owletcare.com
   # > docker
   - DOMAIN-SUFFIX,docker.io
+
+  # > vps for ai
+  - IP-CIDR,154.9.234.74/32
