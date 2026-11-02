@@ -719,5 +719,9 @@ payload:
   # > exception
   - DOMAIN-SUFFIX,wheel-size.cn
   - DOMAIN-SUFFIX,chalungu.cn
+  # > plaud.ai
+  - DOMAIN-SUFFIX,plaud.ai
+  - DOMAIN-KEYWORD,plaud
+  
 
   
