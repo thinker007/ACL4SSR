@@ -337,6 +337,6 @@ payload:
   - DOMAIN-SUFFIX,owletcare.com
   # > docker
   - DOMAIN-SUFFIX,docker.io
-
+  - DOMAIN-SUFFIX,augmunt.com
   # > vps for ai
   - IP-CIDR,154.9.234.74/32
