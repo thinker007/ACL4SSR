@@ -1,0 +1,9 @@
+# name                 source (仓库内路径 或 URL)
+AISuite                Rules/AISuite.yaml
+Force_direct           Rules/Force_direct.yaml
+Force_proxy            Rules/Force_proxy.yaml
+YouTube                https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/YouTube/YouTube.yaml
+Tencent_Classical      https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Tencent/Tencent_Classical.yaml
+Gemini                 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Gemini/Gemini.yaml
+Copilot                https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/Copilot/Copilot.yaml
+ChinaMax_Classical     https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/ChinaMax/ChinaMax_Classical.yaml
