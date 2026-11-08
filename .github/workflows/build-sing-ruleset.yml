@@ -1,0 +1,78 @@
+name: build-sing-ruleset
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "Rules/**.yaml"
+      - "sing-rulesets.txt"
+      - "scripts/clash2sing.py"
+      - ".github/workflows/build-sing-ruleset.yml"
+  schedule:
+    - cron: "17 20 * * *"   # 每天：同步 blackmatrix7 上游 + 刷新 IP-ASN 展开（北京时间 04:17）
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: build-sing-ruleset
+  cancel-in-progress: true
+
+env:
+  # 编译用 sing-box 版本：不得高于路由器版本（1.15.0-awg.2）
+  SING_BOX_VERSION: "1.12.0"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: |
+          pip install pyyaml
+          curl -fsSL --retry 3 "https://github.com/SagerNet/sing-box/releases/download/v${SING_BOX_VERSION}/sing-box-${SING_BOX_VERSION}-linux-amd64.tar.gz" | tar xz
+          sudo install "sing-box-${SING_BOX_VERSION}-linux-amd64/sing-box" /usr/local/bin/sing-box
+
+      - name: Convert & compile
+        run: |
+          mkdir -p out/rule-set src
+          grep -vE '^\s*(#|$)' sing-rulesets.txt | while read -r name source; do
+            if [ "${source#http}" != "$source" ]; then
+              curl -fsSL --retry 3 "$source" -o "src/${name}.yaml"
+              input="src/${name}.yaml"
+            else
+              input="$source"
+            fi
+            python3 scripts/clash2sing.py "$input" "out/rule-set/${name}.json"
+            sing-box rule-set compile --output "out/rule-set/${name}.srs" "out/rule-set/${name}.json"
+          done
+          ls -la out/rule-set
+
+      - name: Smoke test
+        run: |
+          set -e
+          probe() { sing-box rule-set match -f binary "out/rule-set/$1.srs" "$2" 2>&1 | grep -q 'match rules' || { echo "FAIL $1 $2"; exit 1; }; }
+          probe AISuite            api.anthropic.com
+          probe AISuite            chatgpt.com
+          probe Tencent_Classical  qq.com
+          probe YouTube            youtube.com
+          probe Gemini             gemini.google.com
+          probe Copilot            copilot.microsoft.com
+          probe ChinaMax_Classical baidu.com
+
+      - name: Publish to sing branch
+        run: |
+          cd out
+          git init -q
+          git checkout -q -b sing
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -q -m "build from ${GITHUB_SHA::7}"
+          git push -f -q "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${GITHUB_REPOSITORY}.git" sing
