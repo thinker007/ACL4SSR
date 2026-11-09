@@ -331,6 +331,7 @@ payload:
   - DOMAIN-SUFFIX,1openrouter.ai
   # > vps
   - DOMAIN-SUFFIX,vmiss.com
+  - DOMAIN-SUFFIX,dedione.com
   # > owlet dream magic sock
   - DOMAIN-SUFFIX,owletdata.com
   - DOMAIN-SUFFIX,aylanetworks.com
